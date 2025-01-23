@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Adactin Hotel Booking Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Adactin_Hotel_Booking_Suite" class="navigator-link ">
+                    <span>C:\Users\Anbarasan_SAM\eclipse-workspace\CapstoneProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Adactin_Hotel_Booking_Suite" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Adactin_Hotel_Booking_Suite" class="navigator-link ">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Adactin_Hotel_Booking_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Adactin_Hotel_Booking_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Adactin_Hotel_Booking_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Adactin_Hotel_Booking_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" class="hide-methods passed suite-Adactin_Hotel_Booking_Suite"> (hide)</a> <!-- hide-methods passed suite-Adactin_Hotel_Booking_Suite -->
+                      <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" class="show-methods passed suite-Adactin_Hotel_Booking_Suite"> (show)</a> <!-- show-methods passed suite-Adactin_Hotel_Booking_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Adactin_Hotel_Booking_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.BookHotelTest" class="method navigator-link" hash-for-method="testBookingWithValidData">testBookingWithValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.BookHotelTest" class="method navigator-link" hash-for-method="testBookingWithoutMandatoryFields">testBookingWithoutMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.MyItineraryTest" class="method navigator-link" hash-for-method="testCancleBookingByCheckBox">testCancleBookingByCheckBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.LoginTest" class="method navigator-link" hash-for-method="testLoginButtonClickability">testLoginButtonClickability</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.LoginTest" class="method navigator-link" hash-for-method="testLoginButtonVisibility">testLoginButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.LoginTest" class="method navigator-link" hash-for-method="testLoginWithInValidCridentials">testLoginWithInValidCridentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.LoginTest" class="method navigator-link" hash-for-method="testLoginWithValidCridentials">testLoginWithValidCridentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.LogoutTest" class="method navigator-link" hash-for-method="testLogoutRedirectsToLoginPage">testLogoutRedirectsToLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.MyItineraryTest" class="method navigator-link" hash-for-method="testRedirectsToBookedItineraryPage">testRedirectsToBookedItineraryPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.SelectHotelTest" class="method navigator-link" hash-for-method="testRedirectsToBookingPage">testRedirectsToBookingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.SearchHotelTest" class="method navigator-link" hash-for-method="testResetButton">testResetButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.SearchHotelTest" class="method navigator-link" hash-for-method="testSearchWithAllFields">testSearchWithAllFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.SearchHotelTest" class="method navigator-link" hash-for-method="testSearchWithMandatoryFieldsOnly">testSearchWithMandatoryFieldsOnly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.LogoutTest" class="method navigator-link" hash-for-method="testVisibilityOfLogoutButton">testVisibilityOfLogoutButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Adactin_Hotel_Booking_Suite" title="JAT.CapstoneProject.SelectHotelTest" class="method navigator-link" hash-for-method="verifyInvalidHotelSelection">verifyInvalidHotelSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Adactin_Hotel_Booking_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Adactin_Hotel_Booking_Suite" class="panel Adactin_Hotel_Booking_Suite">
+          <div class="suite-Adactin_Hotel_Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JAT.CapstoneProject.BookHotelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBookingWithValidData">
+                  </a> <!-- testBookingWithValidData -->
+                  <span class="method-name">testBookingWithValidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBookingWithoutMandatoryFields">
+                  </a> <!-- testBookingWithoutMandatoryFields -->
+                  <span class="method-name">testBookingWithoutMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adactin_Hotel_Booking_Suite-class-passed -->
+          <div class="suite-Adactin_Hotel_Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JAT.CapstoneProject.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginButtonClickability">
+                  </a> <!-- testLoginButtonClickability -->
+                  <span class="method-name">testLoginButtonClickability</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginButtonVisibility">
+                  </a> <!-- testLoginButtonVisibility -->
+                  <span class="method-name">testLoginButtonVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithInValidCridentials">
+                  </a> <!-- testLoginWithInValidCridentials -->
+                  <span class="method-name">testLoginWithInValidCridentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithValidCridentials">
+                  </a> <!-- testLoginWithValidCridentials -->
+                  <span class="method-name">testLoginWithValidCridentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adactin_Hotel_Booking_Suite-class-passed -->
+          <div class="suite-Adactin_Hotel_Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JAT.CapstoneProject.SearchHotelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResetButton">
+                  </a> <!-- testResetButton -->
+                  <span class="method-name">testResetButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchWithAllFields">
+                  </a> <!-- testSearchWithAllFields -->
+                  <span class="method-name">testSearchWithAllFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchWithMandatoryFieldsOnly">
+                  </a> <!-- testSearchWithMandatoryFieldsOnly -->
+                  <span class="method-name">testSearchWithMandatoryFieldsOnly</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adactin_Hotel_Booking_Suite-class-passed -->
+          <div class="suite-Adactin_Hotel_Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JAT.CapstoneProject.MyItineraryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCancleBookingByCheckBox">
+                  </a> <!-- testCancleBookingByCheckBox -->
+                  <span class="method-name">testCancleBookingByCheckBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRedirectsToBookedItineraryPage">
+                  </a> <!-- testRedirectsToBookedItineraryPage -->
+                  <span class="method-name">testRedirectsToBookedItineraryPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adactin_Hotel_Booking_Suite-class-passed -->
+          <div class="suite-Adactin_Hotel_Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JAT.CapstoneProject.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoutRedirectsToLoginPage">
+                  </a> <!-- testLogoutRedirectsToLoginPage -->
+                  <span class="method-name">testLogoutRedirectsToLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVisibilityOfLogoutButton">
+                  </a> <!-- testVisibilityOfLogoutButton -->
+                  <span class="method-name">testVisibilityOfLogoutButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adactin_Hotel_Booking_Suite-class-passed -->
+          <div class="suite-Adactin_Hotel_Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JAT.CapstoneProject.SelectHotelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRedirectsToBookingPage">
+                  </a> <!-- testRedirectsToBookingPage -->
+                  <span class="method-name">testRedirectsToBookingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidHotelSelection">
+                  </a> <!-- verifyInvalidHotelSelection -->
+                  <span class="method-name">verifyInvalidHotelSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Adactin_Hotel_Booking_Suite-class-passed -->
+        </div> <!-- panel Adactin_Hotel_Booking_Suite -->
+        <div panel-name="test-xml-Adactin_Hotel_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Anbarasan_SAM\eclipse-workspace\CapstoneProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Adactin Hotel Booking Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Signup Function&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Signup&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JAT.CapstoneProject.SignUpTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Signup Function --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Function&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Login&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JAT.CapstoneProject.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Function --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search Hotel Function&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Search Hotel&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JAT.CapstoneProject.SearchHotelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Hotel Function --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Select Hotel Function&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Select Hotel&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JAT.CapstoneProject.SelectHotelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Select Hotel Function --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Book Hotel Function&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Book Hotel&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JAT.CapstoneProject.BookHotelTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Book Hotel Function --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Myitinerary Function&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;MyItinerary&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JAT.CapstoneProject.MyItineraryTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Myitinerary Function --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Logout Function&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Logout&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JAT.CapstoneProject.LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Logout Function --&gt;
+&lt;/suite&gt; &lt;!-- Adactin Hotel Booking Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Adactin_Hotel_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Adactin Hotel Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Signup Function (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Function (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Hotel Function (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Select Hotel Function (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Book Hotel Function (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Myitinerary Function (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Logout Function (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Adactin_Hotel_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Adactin Hotel Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Book Hotel</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBookingWithValidData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testBookingWithoutMandatoryFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginButtonClickability</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginButtonVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginWithInValidCridentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginWithValidCridentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Logout</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogoutRedirectsToLoginPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testVisibilityOfLogoutButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">MyItinerary</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCancleBookingByCheckBox</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRedirectsToBookedItineraryPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Search Hotel</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testResetButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSearchWithAllFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSearchWithMandatoryFieldsOnly</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Select Hotel</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRedirectsToBookingPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyInvalidHotelSelection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Adactin_Hotel_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Adactin Hotel Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Adactin_Hotel_Booking_Suite');
+function tableData_Adactin_Hotel_Booking_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testBookingWithValidData')
+data.setCell(0, 2, 'JAT.CapstoneProject.BookHotelTest')
+data.setCell(0, 3, 7533);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLoginWithValidCridentials')
+data.setCell(1, 2, 'JAT.CapstoneProject.LoginTest')
+data.setCell(1, 3, 3325);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSearchWithMandatoryFieldsOnly')
+data.setCell(2, 2, 'JAT.CapstoneProject.SearchHotelTest')
+data.setCell(2, 3, 2634);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLoginWithInValidCridentials')
+data.setCell(3, 2, 'JAT.CapstoneProject.LoginTest')
+data.setCell(3, 3, 2539);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSearchWithAllFields')
+data.setCell(4, 2, 'JAT.CapstoneProject.SearchHotelTest')
+data.setCell(4, 3, 2228);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCancleBookingByCheckBox')
+data.setCell(5, 2, 'JAT.CapstoneProject.MyItineraryTest')
+data.setCell(5, 3, 1890);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testResetButton')
+data.setCell(6, 2, 'JAT.CapstoneProject.SearchHotelTest')
+data.setCell(6, 3, 1848);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testRedirectsToBookedItineraryPage')
+data.setCell(7, 2, 'JAT.CapstoneProject.MyItineraryTest')
+data.setCell(7, 3, 1741);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testRedirectsToBookingPage')
+data.setCell(8, 2, 'JAT.CapstoneProject.SelectHotelTest')
+data.setCell(8, 3, 1551);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyInvalidHotelSelection')
+data.setCell(9, 2, 'JAT.CapstoneProject.SelectHotelTest')
+data.setCell(9, 3, 1276);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLogoutRedirectsToLoginPage')
+data.setCell(10, 2, 'JAT.CapstoneProject.LogoutTest')
+data.setCell(10, 3, 1184);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testBookingWithoutMandatoryFields')
+data.setCell(11, 2, 'JAT.CapstoneProject.BookHotelTest')
+data.setCell(11, 3, 805);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testVisibilityOfLogoutButton')
+data.setCell(12, 2, 'JAT.CapstoneProject.LogoutTest')
+data.setCell(12, 3, 271);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testLoginButtonClickability')
+data.setCell(13, 2, 'JAT.CapstoneProject.LoginTest')
+data.setCell(13, 3, 257);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testLoginButtonVisibility')
+data.setCell(14, 2, 'JAT.CapstoneProject.LoginTest')
+data.setCell(14, 3, 195);
+window.suiteTableData['Adactin_Hotel_Booking_Suite']= { tableData: data, tableDiv: 'times-div-Adactin_Hotel_Booking_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-Adactin_Hotel_Booking_Suite">
+              </div> <!-- times-div-Adactin_Hotel_Booking_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Adactin_Hotel_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Adactin Hotel Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Adactin_Hotel_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">JAT.CapstoneProject.SignUpTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testNewUserRegisterVisibility</span>
+                <br/>
+                <span class="ignored-method-name">testRedirectToRigisterPage</span>
+                <br/>
+                <span class="ignored-method-name">testNewUserRegisterClickability</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">JAT.CapstoneProject.SearchHotelTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testInvalidDates</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Adactin_Hotel_Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">JAT.CapstoneProject.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testLoginButtonClickability</span>
+                <span class="method-start">8503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testLoginButtonClickability status=SUCCESS method=LoginTest.testLoginButtonClickabi...)</span>
+                <span class="method-start">8769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLoginButtonVisibility</span>
+                <span class="method-start">8788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testLoginButtonVisibility status=SUCCESS method=LoginTest.testLoginButtonVisibility...)</span>
+                <span class="method-start">8989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithInValidCridentials</span>
+                <span class="method-start">8991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testLoginWithInValidCridentials status=SUCCESS method=LoginTest.testLoginWithInVali...)</span>
+                <span class="method-start">11536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithValidCridentials</span>
+                <span class="method-start">11540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testLoginWithValidCridentials status=SUCCESS method=LoginTest.testLoginWithValidCri...)</span>
+                <span class="method-start">14869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14872 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JAT.CapstoneProject.SearchHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16741 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testResetButton</span>
+                <span class="method-start">27553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testResetButton status=SUCCESS method=SearchHotelTest.testResetButton()[pri:1, inst...)</span>
+                <span class="method-start">29406 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSearchWithMandatoryFieldsOnly</span>
+                <span class="method-start">29409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testSearchWithMandatoryFieldsOnly status=SUCCESS method=SearchHotelTest.testSearchW...)</span>
+                <span class="method-start">32046 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSearchWithAllFields</span>
+                <span class="method-start">32048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testSearchWithAllFields status=SUCCESS method=SearchHotelTest.testSearchWithAllFiel...)</span>
+                <span class="method-start">34279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34280 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JAT.CapstoneProject.SelectHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">35129 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidHotelSelection</span>
+                <span class="method-start">49550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=verifyInvalidHotelSelection status=SUCCESS method=SelectHotelTest.verifyInvalidHote...)</span>
+                <span class="method-start">50828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testRedirectsToBookingPage</span>
+                <span class="method-start">50831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testRedirectsToBookingPage status=SUCCESS method=SelectHotelTest.testRedirectsToBoo...)</span>
+                <span class="method-start">52384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52386 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JAT.CapstoneProject.BookHotelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53279 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testBookingWithoutMandatoryFields</span>
+                <span class="method-start">69853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testBookingWithoutMandatoryFields status=SUCCESS method=BookHotelTest.testBookingWi...)</span>
+                <span class="method-start">70660 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testBookingWithValidData</span>
+                <span class="method-start">70663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testBookingWithValidData status=SUCCESS method=BookHotelTest.testBookingWithValidDa...)</span>
+                <span class="method-start">78198 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78200 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JAT.CapstoneProject.MyItineraryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">78513 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testRedirectsToBookedItineraryPage</span>
+                <span class="method-start">90960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testRedirectsToBookedItineraryPage status=SUCCESS method=MyItineraryTest.testRedire...)</span>
+                <span class="method-start">92703 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testCancleBookingByCheckBox</span>
+                <span class="method-start">92706 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testCancleBookingByCheckBox status=SUCCESS method=MyItineraryTest.testCancleBooking...)</span>
+                <span class="method-start">94598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94600 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JAT.CapstoneProject.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">95072 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testVisibilityOfLogoutButton</span>
+                <span class="method-start">106992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testVisibilityOfLogoutButton status=SUCCESS method=LogoutTest.testVisibilityOfLogou...)</span>
+                <span class="method-start">107266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLogoutRedirectsToLoginPage</span>
+                <span class="method-start">107269 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testLogoutRedirectsToLoginPage status=SUCCESS method=LogoutTest.testLogoutRedirects...)</span>
+                <span class="method-start">108456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108459 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
