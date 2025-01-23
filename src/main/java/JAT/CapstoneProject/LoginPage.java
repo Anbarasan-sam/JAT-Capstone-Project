@@ -1,0 +1,27 @@
+package JAT.CapstoneProject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import utils.BaseClass;
+
+public class LoginPage extends BaseClass{
+	protected WebDriver driver;
+	
+	@FindBy(id="username_show")
+	private WebElement welcomeUserText;
+	
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	public boolean isWelcomeUesrTextVisible() {
+		waitForElementVisible(welcomeUserText, 10);
+		return welcomeUserText.isDisplayed();
+	}
+	
+
+}
